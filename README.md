@@ -1,14 +1,19 @@
 # Multisender Smart Contract
 
 Download the repository.
+
 Run: 
 
 npm install
 
+# Prepare .env file
+
 Create .env file to the root folder and put the private keys in this format or create variable of your own and update them in hardhat.config.js
 
 MAINNET_PRIVATE_KEY = YOUR MAINNET PRIVATE KEY (AVAOID PUTIING HERE UNTIL YOU ARE DEPLOYING ON MAINNET AND TESTED ON TEST NETWORKS)
+
 TESTNET_PRIVATE_KEY = YOUR TESTNET PRIVATE KEY (KEEP MAINNET AND TESTNET PRIVATE KEYS SPERATE)
+
 BSC_API_KEY = YOUR CONTRACT VERIFICATION API KEYS. I OBTAINED FROM BSCSCAN.COM. CHECK ON DIFFERENT NETWORKS
 
 # Deployment
@@ -45,5 +50,10 @@ npx hardhat verify "ADDRESS OF DEPLOYED SMART CONTRACT PROXY"
 (--network bsctestnet for bsc testnet or bsc for mainnet or choose your own network)
 
 
+# Contribute
 
 You are free to contribute in this smart contract, just pull the repository.
+
+# License
+
+MIT
